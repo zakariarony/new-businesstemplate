@@ -1,0 +1,600 @@
+<template>
+  <div class="container">
+     <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">ReformedTech</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Services
+				  </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="web.html">Web Development</a>
+					<a class="dropdown-item" href="app.html">Mobile App Development</a>
+					<a class="dropdown-item" href="saas.html">Web & SAAS Applications</a>
+					<a class="dropdown-item" href="wordpress.html">Wordpress Development</a>
+					<a class="dropdown-item" href="ecommerce.html">E-Commerce Development</a>
+				  </div>
+			</li>
+			  <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    
+    <div class="hero-wrap"  data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="overlay-2"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+          <div class="col-md-7 ftco-animate d-flex align-items-end">
+          	<div class="text w-100">
+	            <h1 class="mb-4">Simple Solution for your Complex Ideas...</h1>
+	            <p class="mb-4">ReformedTech, a Group of Dynamic and Excellent Team of Web, Mobile App, Software Developers, Strategic Consultants, Marketing Advisors sits together and discusses your business growth on a Technological Platform to maximize your expectations above and beyond.</p>
+	            <p><a href="#" class="btn btn-primary rounded-pill py-2 px-4">SEE OUR WORKS</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="fa fa-chevron-down"></span></div>
+				</a>
+			</div>
+    </div>
+
+    <section class="ftco-section ftco-fullwidth goto-here">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row justify-content-center">
+          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+          	<span class="subheading">A Journey with ReformedTech</span>
+            <h2 class="mb-2">We Shine When Our Clients Do</h2>
+          </div>
+        </div>
+    	</div>
+    	<div class="container-fluid px-0">
+    		<div class="row d-sm-flex text-wrapper align-items-stretch">
+					<div class="one-half mb-md-0 mb-4 img d-flex align-self-stretch" style="background-image: url('images/work-1.jpeg');"></div>
+					<div class="one-half half-text d-flex justify-content-end align-items-center">
+						<div class="text-inner pt-md-5 pl-md-5">
+							<div class="row d-flex">
+			          <div class="col-md-12 d-flex align-self-stretch ftco-animate">
+			            <div class="media block-6 services-wrap d-flex">
+			            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-team"></span></div>
+			              <div class="media-body pl-4">
+			                <h3>Successful Implementation</h3>
+			                <p>More than 7 years of Experience in building successful Web, Mobile Apps and Software Implementations.</p>
+			              </div>
+			            </div>      
+			          </div>
+			          <div class="col-md-12 d-flex align-self-stretch ftco-animate">
+			            <div class="media block-6 services-wrap d-flex">
+			            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-loan"></span></div>
+			              <div class="media-body pl-4">
+			                <h3>Awesome Support</h3>
+			                <p>ReformedTech Supports your Web Application & Software to help improve your Client Satisfaction in a strategically programmed way.</p>
+			              </div>
+			            </div>      
+			          </div>
+			          <div class="col-md-12 d-flex align-self-stretch ftco-animate">
+			            <div class="media block-6 services-wrap d-flex">
+			            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-routine"></span></div>
+			              <div class="media-body pl-4">
+			                <h3>Technology Specialist</h3>
+			                <p>ReformedTech Technical Specialists work with your vision, draw the roadmap and implement your expectation above and beyond.</p>
+			              </div>
+			            </div>      
+			          </div>
+			        </div>
+            </div>
+					</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row justify-content-center">
+          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+          	<span class="subheading">the services we provide</span>
+            <h2 class="mb-2">Our Services</h2>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div  class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+            <a href="web.html" class="media block-6 services d-block text-center">
+            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-family"></span></div>
+              <div class="media-body py-md-4">
+                <h3>WEB Development</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </a>      
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+            <a href="app.html" class="media block-6 services d-block text-center">
+            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-research"></span></div>
+              <div class="media-body py-md-4">
+                <h3>Mobile Apps Development</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </a>      
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+            <a href="saas.html" class="media block-6 services d-block text-center">
+            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-checklist"></span></div>
+              <div class="media-body py-md-4">
+                <h3>WEB & SAAS Applications</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </a>      
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+            <a href="wordpress.html" class="media block-6 services d-block text-center">
+            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-project"></span></div>
+              <div class="media-body py-md-4">
+                <h3>WordPress Development</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </a>      
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+            <a href="ecommerce.html" class="media block-6 services d-block text-center">
+            	<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-document"></span></div>
+              <div class="media-body py-md-4">
+                <h3>E-Commerce Development</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </a>      
+          </div>
+        </div>
+    	</div>
+    </section>
+
+	<section class="ftco-section ftco-no-pb">
+    	<div class="container-fluid">
+    		<div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Proceduce</span>
+            <h2>Our Works</h2>
+          </div>
+        </div>
+    		<div class="row no-gutters justify-content-center">
+    			<div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+    				<div class="workLeft">
+						<span class="number">01</span>
+						
+						<h2>Cabiy, NYC’s leading platform for finding Taxi car and driver.</h2>
+						<img src="/images/Cabiy.png" class="img-fluid" alt="Responsive image">
+    					<div class="">
+	    					<p>Cabiy is where you can connect with up to date listings for renting a car or finding a car to drive. Search through owners and drivers from multiple services like Yellow or Green cab, Uber, Lyft, Limos and much more in your location of choice.</p>
+						</div>
+						<div class="">
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Search Car To Drive</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Post Listing / Advertisement</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>TLC Driver Application Status Check</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Parking & Red Light Ticket Lookup And Notification​</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Free Drug Test Lookup & Notification</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Find All Taxi & FHV Relief Stands</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Red Light Camera Locations</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Secured In-App Chat Included</span>
+								</div>
+							</div>
+						</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+    				<div class="workRight">
+    					<span class="number">02</span>
+						<h2>THR3EFOLD a Platform to Build Your Ethical and Sustainable Fashion Brand.</h2>
+						<img src="/images/Threefold.png" class="img-fluid" alt="Responsive image">
+    					<div class="text">
+    						<p>THR3EFOLD believe fashion can positively impact people and planet but you can't build a business alone. So at THR3EFOLD, you gain access to a knowledgeable community where you can learn and find resources, search ethically certified factories around the world, and manage your production. Building a brand is hard. Why make it harder? We want to be there for you every step of the way.Struggling to build your brand?</p>
+						</div>
+						<div class="text-light">
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Don't know what standards your factory should have?</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Not sure which fabric is more sustainable? ​</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Does production make your brain hurt?</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Want to know how to grow sales, press, and a following?​</span>
+								</div>
+							</div>
+							<p>THR3EFOLD can help you.</p>
+						</div>
+    				</div>
+				</div>
+				<div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+    				<div class="workRight">
+    					<span class="number">03</span>
+						<h2>SeekFlat, Powerful Tool for Flat Seeker's</h2>
+						<img src="/images/SeekFlat.png" class="img-fluid" alt="Responsive image">
+    					<div class="text">
+    						<p>As per requirements and business needs, we are utilizing an agile methodology to complete this project, divided into the following phases:</p>
+						</div>
+						<div class="text-light">
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>We understood software requirement and started first phase with UI/UX</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>We finalized design with our team and after testing 5 different designs and 20+ revisions​</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>We developed this software using many technologies like PHP framework laravel, vue.js,bulma which we integrated on the web platform.</span>
+								</div>
+							</div>
+						</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+    				<div class="workLeft">
+    					<span class="number">04</span>
+						<h2>Property Management System</h2>
+						<img src="/images/SmartProperty.png" class="img-fluid" alt="Responsive image">
+    					<div class="text">
+    						<p>SmartProperty is a collaborative, paperless, and social property management solution. It allows you to communicate with all of your residents or send messagesto particular persons or groups. Other than that, the solution has a social network embedded in it where residents can create profiles, share ideas, and plan for community activities together.</p>
+						</div>
+						<div class="">
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Residential & Commercial Property Management </span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Property Accounting Management</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Tenant & Staff Management</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Property & Association Community Services</span>
+								</div>
+							</div>
+						</div>
+    				</div>
+				</div>
+				<div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+    				<div class="workLeft">
+    					<span class="number">05</span>
+						<h2>Building Website And Others UI Elements</h2>
+						<img src="/images/Lawlegal.png" class="img-fluid" alt="Responsive image">
+    					<div class="text">
+    						<p>LawSuitLegal builds custom enterprise applications for the web and mobile devices. These solutions address process bottlenecks to improve efficiency, productivity and the bottom line for clients. alligatortek opens the possibilities for new strategies and business opportunities with software technologies.</p>
+						</div>
+						<div class="">
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Single sign on web application</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>User Experience Design</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Maximize funnels and landing pages.</span>
+								</div>
+							</div>
+						</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+    				<div class="workRight">
+    					<span class="number">06</span>
+						<h2>Building Website And Others UI Elements</h2>
+						<img src="/images/berly.png" class="img-fluid" alt="Responsive image">
+    					<div class="text">
+    						<p>BearlyMarketing builds custom enterprise applications for the web and mobile devices. These solutions address process bottlenecks to improve efficiency, productivity and the bottom line for clients. alligatortek opens the possibilities for new strategies and business opportunities with software technologies.</p>
+						</div>
+						<div class="">
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Single sign on web application</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>User Experience Design</span>
+								</div>
+							</div>
+							<div class="media">
+								<div class="pr-2"><i class="fa fa-check" aria-hidden="true"></i></div>
+								<div class="media-body">
+								  <span>Maximize funnels and landing pages.</span>
+								</div>
+							</div>
+						</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+     
+    <section class="ftco-section testimony-section">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          	<span class="subheading">Testimonial</span>
+            <h2 class="mb-3">Happy Clients</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12" >
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p style="height: 170px"  class="mb-4">ReformedTech has helped facilitate a great look and presence for our business…
+						Our practice website has a design that is welcoming and informative with high
+						optimization</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/reviewer-1.jpeg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Elizabeth Harris</p>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p style="height: 170px" class="mb-4">ReformedTech Design did a great job for us. We may have been one of their picky
+						customers but they were always patient with our changes. We highly recommend Red Spot
+						for website design. They are very responsive and quick when it comes to changes.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/reviewer-1.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Adam Rodriguez</p>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p style="height: 170px" class="mb-4"> We love working with ReformedTech! Not only do they create beautiful,
+						interactive, easy-to-update websites, but they are also extremely helpful and amazing
+						to work with!</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/zen.jpeg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Marissa Heredia</p>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2 logo"><a href="#">ReformedTech</a></h2>
+              <p>We are continuously digitizing the world around us. We deliver world class customer experiences.</p>
+              <ul class="ftco-footer-social list-unstyled mt-5">
+				<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="web.html"><span class="fa fa-chevron-right mr-2"></span>Web Development</a></li>
+                <li><a href="app.html"><span class="fa fa-chevron-right mr-2"></span>Mobile Apps Development</a></li>
+                <li><a href="saas.html"><span class="fa fa-chevron-right mr-2"></span>Web & SAAS Applications</a></li>
+				<li><a href="wordpress.html"><span class="fa fa-chevron-right mr-2"></span>WordPress Development</a></li>
+				<li><a href="ecommerce.html"><span class="fa fa-chevron-right mr-2"></span>E-Commerce Development</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Company</h2>
+              <ul class="list-unstyled">
+                <li><a href="about.html"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+				<li><a href="contact.html"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+				<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
+				<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon fa fa-map marker"></span><span class="text">32/1, Road: 3, Shyamoli, Dhaka 1207,Bangladesh</span></li>
+					<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">contact@reformedtech.org</span></a></li>
+					<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+88 01303-094897</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+  				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
+			</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+
+
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script> -->
+
+
+    
+  </body>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style>
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+</style>
